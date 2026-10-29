@@ -8,5 +8,8 @@ Se agrego el juego de Paint que viene de freegames.
 Se le agrego una funcion de hacer triangulos con la tecla "t".
 <br>
 <br>
-Se le añadió el color rosa, el cual se actuva con la tecla "P".
+Se le añadió el color rosa el cual se activa con la tecla "P".
+<br>
+<br>
+Se le añadio la opcion de crear un circulo con la tecla "c".
 
