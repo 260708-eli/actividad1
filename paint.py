@@ -9,6 +9,7 @@ Exercises
 5. Add width parameter.
 """
 
+import turtle
 from turtle import *
 
 from freegames import vector
@@ -38,7 +39,16 @@ def square(start, end):
 
 def circle(start, end):
     """Draw circle from start to end."""
-    pass  # TODO
+    up()
+    goto(start.x, start.y)
+    down()
+    begin_fill()
+
+    # Se calcula el radio
+    radius = abs(end.x - start.x)
+    circle_draw(radius)  # usamos la función de turtle para el círculo
+
+    end_fill()
 
 
 def rectangle(start, end):
